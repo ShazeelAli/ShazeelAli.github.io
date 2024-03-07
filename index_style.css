@@ -6,6 +6,8 @@
 }
 
 .side-bar{
+    display: grid; 
+    grid-template-columns: auto 40px;
     padding-left: 20px;
     position: left;
     background-color: #000000;
@@ -15,11 +17,24 @@
 }
 
 .header{
-    margin: 10px;
+    padding-left: 10px;
     grid-column: 2/span 3;
     height:50px
+}
+
+.side-bar-close-open{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
 }
 
 h1{
     font-family: "Open Sans";
 }
+
+body{
+    padding: 0%;
+}
+

@@ -11,16 +11,29 @@
     </head>
     <body>
         <div class="grid-container">
+            <!-- HEADER -->
             <div class="header">
                 <h1>Profile - Shazeel Ali</h1>
             </div>
-            <div class="side-bar">
-                <h1>Side Bar</h1>
+
+            <!-- SIDEBAR -->
+            <div class="side-bar" id="side-bar">
+                    <h1>Sidebar</h1>
+                    <button class="side-bar-close-open" type="button" onclick="closeSidebar()">Close</button>
             </div>
+
+            <!-- MAIN -->
             <div class="main">
                 <h2></h2>
             </div>
+
         </div>
         
     </body>
+
+    <script>
+        function closeSidebar(){
+            document.getElementById("side-bar").style.width = 0
+        }
+    </script>
 </html>
